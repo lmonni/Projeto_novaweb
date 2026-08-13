@@ -1,6 +1,6 @@
 # Códigos HEX das 3 cores principais
 
-**60%** - #F9F8F6
+**60%** - #FDFAF8
 **30%** - #C86B45
 **10%** - #1D4ED8
 
