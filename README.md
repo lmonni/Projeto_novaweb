@@ -4,6 +4,10 @@
 
 A FrameYou atuará como uma loja virtual de roupas.
 
+## Desenvolvedor
+
+Larah Mônnica de Oliveira Lima
+
 ## Objetivos
 
 - Desenvolver uma loja virtual de roupas.
