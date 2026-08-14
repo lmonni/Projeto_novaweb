@@ -92,6 +92,8 @@ novaweb-projeto-inicial/
 
 ## Wireframes
 
-- [Wireframe - Home](docs/wireframes/home.png)
-- [Wireframe - Produtos](docs/wireframes/produtos.png)
-- [Wireframe - Contato](docs/wireframes/contato.png)
+![Wireframe da Home](docs/wireframes/home.png)
+
+![Wireframe de Produtos](docs/wireframes/produtos.png)
+
+![Wireframe de Contato](docs/wireframes/contato.png)
