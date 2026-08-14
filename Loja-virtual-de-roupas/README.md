@@ -8,7 +8,6 @@ A FrameYou é uma loja virtual de roupas.
 
 - Desenvolver uma loja virtual de roupas.
 - Criar uma interface organizada e intuitiva.
-- Utilizar HTML semântico na estrutura das páginas.
 
 ## Escopo
 
