@@ -92,8 +92,8 @@ novaweb-projeto-inicial/
 
 ## Wireframes
 
-![Wireframe da Home](docs/wireframes/home.png)
+![Wireframe da Home](./Loja-virtual-de-roupas/docs/wireframes/home.png)
 
-![Wireframe de Produtos](docs/wireframes/produtos.png)
+![Wireframe de Produtos](./Loja-virtual-de-roupas/docs/wireframes/produtos.png)
 
-![Wireframe de Contato](docs/wireframes/contato.png)
+![Wireframe de Contato](./Loja-virtual-de-roupas/docs/wireframes/contato.png)
