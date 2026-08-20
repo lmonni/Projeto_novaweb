@@ -1,17 +1,37 @@
-# Introdução a Projetos Web e Git
-## ETAPA 1: Pesquisa Conceitual & Escopo de Software
+# **Laboratório Prático: Investigação e Análise Crítica**
 
-### Desafio 1.1 — O que é um Projeto de Software
-Um projeto de software é uma iniciativa com planejamento definido para a criação de um sistema ou aplicação, com etapas estabelecidas a fim de assegurar que o produto final seja satisfatório para as necessidades do cliente e dos usuários.
+## **Parte 1: Engenharia Reversa de Sintaxe**
 
-**01. O que difere um "Projeto de Software" de um "Script/Código isolado"?**
-Um projeto de software é um trabalho desenvolvido para atender às necessidades do cliente e de usuários de forma organizada, enquanto que o script/código é um bloco de programação executado de forma totalmente independente do resto de um sistema ou sistema operacional. Assim, eles se diferem na escala, estrutura e propósito.
+1. **Qual dos trechos foca estritamente na *semântica personalizada de dados* sem se preocupar em como a informação será exibida visualmente na tela? Justifique.**
 
-**02. Ciclo de Vida Básico: Explique sucintamente as seguintes fases de um projeto:**
-**- Levantamento de Requisitos / Escopo:** identificação das necessidades do cliente, definição das funcionalidades do sistema e dos limites do projeto, estabelecendo exatamente o que será desenvolvido;
-**- Desenvolvimento / Codificação:** etapa em que os programadores implementam as funcionalidades definidas, escrevendo o código-fonte do software;
-**- Testes / Qualidade:** fase de verificação para identificar e corrigir erros, garantindo que o sistema funcione corretamente e atenda aos requisitos estabelecidos;
-**- Entrega / Implantação:** momento em que o software é disponibilizado ao cliente ou colocado em funcionamento no ambiente de produção, podendo incluir treinamento e suporte inicial.
+O XML foca na estrutura e semântica dos dados, usando tags personalizadas, não definindo como essas informações serão exibidas na tela.
 
-**03. Alinhamento com a NovaWeb Studio: Por que definir um escopo fechado antes de iniciar a codificação é vital para evitar atrasos na entrega de um software?**
-É essencial porque estabelece claramente quais funcionalidades serão desenvolvidas, evitando mudanças constantes durante o projeto. Isso facilita o planejamento do tempo, dos custos e dos recursos, reduz as chances de refazer, melhora a organização da equipe e aumenta a previsibilidade da entrega.
+2. **Pensando em produtividade para documentar um código no repositório, qual sintaxe é mais eficiente e limpa para o desenvolvedor escrever?**
+
+O Markdown é o mais simples, rápido e limpo para documentar código em um repositório, utilizando poucos caracteres e permitindo criar títulos e organizar informações.
+
+3. **Se você precisasse criar a página principal de uma loja virtual para o usuário final navegar, qual das três opções seria obrigatoriamente a base estrutural?**
+
+O HTML5, pois é ele que define os elementos da página que o usuário verá e com os quais poderá interagir.
+
+## **Parte 2: Auditoria de Infraestrutura Real**
+
+1. **Consulta de Valores de Mercado: Acesse o site oficial do Registro.br. Qual é o valor atual para registrar um domínio.com.br por 1 ano? Existe desconto se registrar por um período maior (ex: 5 anos)?**
+
+O registro de um domínio .com.br por 1 ano custa R$ 40,00. Para 5 anos, o valor é R$ 184,00. Portanto, existe desconto ao registrar o domínio por um período maior.
+
+2. **Rastreamento de IP (DNS na prática): Abra o terminal do seu computador (Prompt de Comando/CMD ou Bash) e execute o comando ping seguido de um site famoso de sua escolha (Exemplo: ping senai.br). Qual é o endereço IPv4 que a rede DNS retornou para esse site?**
+
+O comando foi executado com o site uol.com.br e o endereço IPv4 retornado foi 200.147.35.149.
+
+3. **Ferramenta Whois (Investigação de Propriedade): Acesse a ferramenta Whois do Registro.br (ou ferramentas globais como whois.is para domínios estrangeiros) e pesquise pelo domínio de uma grande marca (ex: uol.com.br, globo.com, ou o portal do seu estado). Descubra e anote:**
+
+- **Domínio:** uol.com.br
+
+- **Entidade/Empresa detentora (Razão Social/CNPJ):** Universo Online S/A (01.109.184/0001-95)
+
+- **Data de criação original do domínio:** 24/04/1996
+
+- **Data de expiração atual do registro:** 24/04/2034
+
+- **Quais são os servidores DNS (Master e Slave) responsáveis por direcionar esse domínio?** eliot.uol.com.br, borges.uol.com.br e charles.uol.com.br.
