@@ -1,0 +1,26 @@
+/* Seleciona a classe título para estilizar com uma cor de minha escolha */
+.titulo {
+    color: rgb(230, 0, 255);
+}
+
+/* Seleciona a ID descricao para estilizar com um tamanho de fonte maior */
+#descricao {
+    font-size: 32px;
+}
+
+/* Seleciona a classe paragrafo-simples para estilizar usando um seletor de classe */
+.paragrafo-simples {
+    background-color: aliceblue;
+    color: rgb(0, 4, 255);
+}
+
+/* Seleciona todos os links dentro da tag nav usando um seletor de descendente para estilizar*/
+nav a {
+    color: rgb(0, 255, 0);
+}
+
+/* Seleciona o seletor universal para zerar as margens e paddings de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+}
