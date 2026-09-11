@@ -6,3 +6,46 @@ nome_aluno: Larah Mônnica de Oliveira Lima
 email_aluno: larah.lima@edu.senai.br
 turma: TDE-1BAA-26
 */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightcyan;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid #232ec8;
+    padding: 10px;
+}
+
+.coluna-principal {
+    float: left;
+    width: 60%;
+    background-color: #c5c9cc;
+    padding: 15px;
+}
+
+.coluna-secundaria {
+    color: #c5c9cc;
+    float: right;
+    width: 30%;
+    background-color: #232ec8;
+    padding: 15px;
+}
+
+.limpa-flutuacao {
+    clear: both;
+}
+
+.botao-fixo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #74acff;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(36, 36, 36, 0.3);
+    z-index: 100;
+}
