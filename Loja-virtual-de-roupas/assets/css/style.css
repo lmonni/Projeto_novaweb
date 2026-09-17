@@ -20,3 +20,9 @@ header {
     align-items: center;
     padding: 20px 60px;
 }
+
+.icones {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
