@@ -6,6 +6,10 @@
 
 body {
     font-family: Inter, sans-serif;
-    background-color: #F9F8F6;
+    background-color: #FDF9F5;
     color: #1d1d1d;
+}
+
+header {
+    background-color: #FDF9F5;
 }
