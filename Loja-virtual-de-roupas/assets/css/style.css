@@ -55,3 +55,9 @@ nav a {
     align-items: center;
     padding: 60px;
 }
+
+.texto-destaque h1 {
+    font-family: Syne, sans-serif;
+    font-size: 48px;
+    line-height: 1.1;
+}
