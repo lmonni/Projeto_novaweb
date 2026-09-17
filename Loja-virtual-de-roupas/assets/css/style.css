@@ -69,3 +69,12 @@ nav a {
     max-width: 500px;
     margin: 20px 0;
 }
+
+.botao {
+    display: inline-block;
+    background-color: #1D4ED8;
+    color: #FDF9F5;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-weight: bold;
+}
