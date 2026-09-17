@@ -111,3 +111,11 @@ nav a {
     font-family: Syne, sans-serif;
     font-size: 18px;
 }
+
+.produtos-destaque h2 {
+    font-family: Syne, sans-serif;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
