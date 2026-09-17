@@ -70,6 +70,10 @@ nav a {
     margin: 20px 0;
 }
 
+.texto-destaque h1 span {
+    color: #DB5925;
+}
+
 .botao {
     display: inline-block;
     background-color: #1D4ED8;
@@ -78,3 +82,4 @@ nav a {
     padding: 15px 30px;
     font-weight: bold;
 }
+
