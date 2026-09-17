@@ -119,3 +119,9 @@ nav a {
     margin-bottom: 30px;
 }
 
+.lista-produtos {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 0 60px;
+}
