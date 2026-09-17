@@ -61,3 +61,11 @@ nav a {
     font-size: 48px;
     line-height: 1.1;
 }
+
+.texto-destaque p {
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 500px;
+    margin: 20px 0;
+}
