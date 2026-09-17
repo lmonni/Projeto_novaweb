@@ -95,3 +95,10 @@ nav a {
     align-items: center;
     padding: 30px 60px;
 }
+
+.beneficio {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
