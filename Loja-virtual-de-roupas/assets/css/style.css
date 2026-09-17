@@ -48,3 +48,10 @@ nav a {
     color: #1D1D1D;
     font-weight: bold;
 }
+
+.destaque {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
