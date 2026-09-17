@@ -26,3 +26,8 @@ header {
     gap: 20px;
     align-items: center;
 }
+
+.icones img {
+    width: 25px;
+    height: 25px;
+}
