@@ -21,6 +21,11 @@ header {
     padding: 20px 60px;
 }
 
+.cabecalho > a img {
+    width: 180;
+    height: auto;
+}
+
 .icones {
     display: flex;
     gap: 20px;
