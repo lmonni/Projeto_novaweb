@@ -125,3 +125,8 @@ nav a {
     gap: 25px;
     padding: 0 60px;
 }
+
+.produto-card {
+    width: 220px;
+}
+
