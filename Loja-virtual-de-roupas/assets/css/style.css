@@ -7,7 +7,7 @@
 body {
     font-family: Inter, sans-serif;
     background-color: #FDF9F5;
-    color: #1d1d1d;
+    color: #A29E9E;
 }
 
 header {
@@ -45,7 +45,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #1D1D1D;
+    color: #A29E9E;
     font-weight: bold;
 }
 
@@ -107,3 +107,7 @@ nav a {
     height: 35px;
 }
 
+.beneficio h2 {
+    font-family: Syne, sans-serif;
+    font-size: 18px;
+}
