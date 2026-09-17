@@ -88,3 +88,10 @@ nav a {
     width: 45%;
     min-height: 400px;
 }
+
+.beneficios {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 60px;
+}
