@@ -38,19 +38,21 @@ header {
 }
 
 nav {
-    padding: 0 60px 20px;
+    padding: 18px 60px;
+    background-color: #DB5925;
 }
 
 nav ul {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 50px;
     list-style: none;
 }
 
 nav a {
     text-decoration: none;
-    color: #A29E9E;
+    color: #FDF9F5;
     font-weight: bold;
 }
 
@@ -133,6 +135,7 @@ nav a {
 
 .produto-card {
     width: 220px;
+    padding-bottom: 15px;
 }
 
 .imagem-produto {
@@ -153,4 +156,13 @@ nav a {
     font-weight: bold;
     color: #1D4ED8;
     margin-top: 5px;
+}
+
+footer {
+    background-color: #DB5925;
+    color: #FDF9F5;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 60px;
+    margin-top: 60px;
 }
