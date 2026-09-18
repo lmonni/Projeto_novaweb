@@ -33,8 +33,8 @@ header {
 }
 
 .icones img {
-    width: 32px;
-    height: 32px;
+    width: 45px;
+    height: 45px;
 }
 
 nav {
@@ -154,6 +154,12 @@ nav a {
     height: 300px;
     background-color: #FDF9F5;
     overflow: hidden;
+}
+
+.imagem-produto img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .produto-card h3 {
