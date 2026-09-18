@@ -22,19 +22,8 @@ header {
 }
 
 .cabecalho img {
-    width: 180px;
+    width: 300px;
     height: auto;
-}
-
-.icones {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-
-.icones img {
-    width: 45px;
-    height: 45px;
 }
 
 nav {
