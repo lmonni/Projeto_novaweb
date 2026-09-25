@@ -1,0 +1,55 @@
+header {
+    background-color: palevioletred;
+    padding: 5px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+header nav {
+    background-color: whitesmoke;
+}
+
+main {
+    background-color: whitesmoke;
+    padding: 5px;
+}
+
+header nav ul {
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    height: 30px;
+    display: flex;
+}
+
+header nav ul li a {
+    color: gray;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    margin: 10px;
+}
+
+main table {
+    margin: 0 auto;
+    color: gray;
+    width: 50%;
+    border: 1px solid;
+}
+
+main table td, main table th {
+    border: 1px solid;
+    text-align: center;
+}
+
+main table td img:hover {
+    width: 150px;
+}
+
+footer {
+    background-color: gray;
+    color: whitesmoke;
+    padding: 5px;
+    text-align: center;
+}
