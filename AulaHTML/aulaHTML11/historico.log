@@ -1,0 +1,761 @@
+commit a0a0f026242fd712d52680792db60191755653a1
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 25 08:38:25 2026 -0300
+
+    AULAHTML11 Finalizada!
+
+commit 1a7ea9f242780003407de5cc6292039f7b93d699
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 25 08:33:02 2026 -0300
+
+    aula 11: separação da bandeira e do nome de cada equipe
+
+commit 38dbaa0b28d0a82437f606f34de63c2729e0b548
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 25 08:27:52 2026 -0300
+
+    aula 11: adição dos estilos e as fotos
+
+commit f9b1a0a332d4e761e5c3998722c0c30bff456daf
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 25 08:16:33 2026 -0300
+
+    aula 11: tabela do grupo C completa
+
+commit 6c67cad459bf42ec9c78b47d5017a241c7f11927
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 25 08:13:48 2026 -0300
+
+    aula 11: tabela do grupo B completo
+
+commit 2d4323458c71d18be3faac705e554aa94d37cc7d
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 25 08:10:04 2026 -0300
+
+    aula 11: tabela do grupo A completa
+
+commit 963cc007f0a4a4f84d22363a53fe9c00686d315a
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 25 08:07:45 2026 -0300
+
+    aula 11: implementação do padrão de dados das tabelas
+
+commit a2d8224b6950f740fb677144ca8d514663892f5d
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 25 08:02:00 2026 -0300
+
+    aula 11: implementando a base da tabela
+
+commit 2eb0d45eb86c8e2c604988199f2aeeaac50e005d
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 25 07:41:20 2026 -0300
+
+    aula 11: adicionando o cabeçalho e renomeando a tabela_complicada para tabela_copa2026
+
+commit 66d97fbfe17153758cb890d91c16d2cc47d70242
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 25 07:38:27 2026 -0300
+
+    pasta aulaHTML11 criada
+
+commit 0b1944ec4bb39f1bf1627c5499f5c12daea6cb60
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 24 12:13:01 2026 -0300
+
+    tabela simples com estilo adicionado
+
+commit 59ac2610a5a53417928b234c692a28c225a1f6f1
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 24 09:57:52 2026 -0300
+
+    tabela simples com alunos adicionados
+
+commit bd44b558f44eaae07ac9614ff1c005b6c8897e50
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 24 08:55:44 2026 -0300
+
+    tabela simples com cabeçalho
+
+commit 9ae1fbfc629030f7abc1d75ec9a8c29665f0154b
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 24 08:32:35 2026 -0300
+
+    Estruturas de tabelas
+
+commit 8967591691e67f6fb481c3099d693f77e4feeb81
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 18 14:59:26 2026 -0300
+
+    ajuste no alinhamento do texto da página de contato
+
+commit 6cc126895e30323a4ed497eb345ce7a0e3ab5efa
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 18 13:46:10 2026 -0300
+
+    LMA SA 01feat: encerramento da SA01
+
+commit 466111e4f5fb87bbe100cf8c8e818fd307cbd900
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 18 13:40:36 2026 -0300
+
+    LMA SA01: implementação dos estilos ao formulário do contato
+
+commit 5bfc562b2140f362e6f74ea7b0557eb74acd2f27
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 18 13:36:39 2026 -0300
+
+    LMA SA01: adição do botão de resetar
+
+commit 448901c754f3333b49238b8d1fc399a807b7ec2d
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 18 13:21:43 2026 -0300
+
+    LMA SA01: implementação do formulário na página de contato
+
+commit 82f181574ba098d4e7e95f7680130965abadd41a
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 18 12:56:17 2026 -0300
+
+    LMA SA01: adição das imagens na página de produtos
+
+commit e66551bca09b36a78be5c1e0438b8bb3612fb47f
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 18 12:50:06 2026 -0300
+
+    LMA SA01: remoção da classe "icones" e ajuste no tamanho da logo
+
+commit 1f14bca36a2c88e57995be743245430b169c51be
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 18 12:43:43 2026 -0300
+
+    LMA SA01: correção dos caminhos nas três páginas
+
+commit 610bf699390d4a09a9e6759f435a9e57e44a6894
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 18 10:45:08 2026 -0300
+
+    LMA SA01: implementação dos produtos na página de produtos
+
+commit 13717778d6f55cdd8f7f6a0c26e523629861df03
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 18 10:17:14 2026 -0300
+
+    LMA SA01: adição do título principal da página de produtos
+
+commit 04cbad13da6cf4839d721e4e50bcecd74fa6c8bf
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 18 10:02:46 2026 -0300
+
+    LMA SA01: implementação das estruturas básicas, o header e o footer criados no index.html na página de contato
+
+commit c9fdfff1da37544b6c40b7b02235949a7084d775
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 18 10:00:51 2026 -0300
+
+    LMA SA01: implementação das estruturas básicas, o header e o footer criados no index.html na página de produtos
+
+commit 4da126040cdb911b7e860fcc832302b6b2f9321b
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 18 09:49:15 2026 -0300
+
+    LMA SA01: adição das imagens na página home
+
+commit 43247f6d2357deff9eb2dfcdd6f35bbb4c79a022
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 18 08:45:15 2026 -0300
+
+    LMA SA01: reajuste dos estilos da página home
+
+commit 3bff076d0ba8b5471391c1553870083767df0f8a
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 18 07:46:49 2026 -0300
+
+    LMA SA01: definição dos estilos dos links do footer
+
+commit e0ecbbcaad505ad511016403da0ae1974069b566
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 18 07:42:04 2026 -0300
+
+    LMA SA01: ajustes dos estilos de classes anteriores
+
+commit 7328b0512f42178b15c234ddfa2833a47243eec6
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 18 07:37:08 2026 -0300
+
+    LMA SA01: implementação dos estilos do footer e ajustes de outros
+
+commit 8a20bd5decad671937e2e8547ea50123ddc2ff78
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 18 07:29:20 2026 -0300
+
+    Ajustes das aulas HTML
+
+commit 46483822c6cd34e88947a541928a86dac2eac10e
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 15:43:27 2026 -0300
+
+    LMA SA01: definição dos estilos dos títulos h3 e parágrafos da classe "produto-card"
+
+commit 02557b741ec3c35000e8458a45e6d5da2e83a2f9
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 15:37:56 2026 -0300
+
+    LMA SA01: ajuste do tamanho da logo
+
+commit 9796dee51ee127bf8e5a998fcc138102c1f513fb
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 15:35:13 2026 -0300
+
+    LMA SA01: definição dos estilos das imagens dos produtos
+
+commit 9f23e4e5c861058c0a5a4a580b51096b87fdbddb
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 15:33:47 2026 -0300
+
+    LMA SA01: definição do tamanho dos cards de produtos
+
+commit 8314a4a491bad42bf79e1d0146c122ec206df3f2
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 15:32:48 2026 -0300
+
+    LMA SA01: definição dos estilos da classe "lista-produtos"
+
+commit 30e49c0da8ed670582ac540ef2237798990aa825
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 15:30:17 2026 -0300
+
+    LMA SA01: definição dos estilos dos títulos h2 da classe "produtos-destaque"
+
+commit 514abf702af9c643dd599f7f2e1006aa38fd05ad
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 15:28:35 2026 -0300
+
+    LMA SA01: definição dos estilos dos títulos h2 da classe "beneficio"
+
+commit 6044a5198aca7bed593daeb1716a46975e4157b9
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 15:23:51 2026 -0300
+
+    LMA SA01: definição dos estilos das imagens da classe "beneficio"
+
+commit 193295cd5c348f8bad7513086b6f94e44c296588
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 15:22:39 2026 -0300
+
+    LMA SA01: definição dos estilos da classe "beneficio"
+
+commit 82b6a9f4f880917e4db4c2df22605e3c7681e98c
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 15:21:18 2026 -0300
+
+    LMA SA01: definição dos estilos da classe "beneficios"
+
+commit 73469d6bc9688cf06d5da73613d44ec1136709b8
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 15:18:25 2026 -0300
+
+    LMA SA01: definição dos estilos da classe "imagem-destaque"
+
+commit 148d87860b28a3c4dc6091e0de56b8c82d54d0ae
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 15:09:55 2026 -0300
+
+    LMA SA01: ajuste na cor do título h1 span da classe "texto-destaque"
+
+commit 0eb50e409004b6cc417b3602d6507cd32c59bc06
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 15:06:38 2026 -0300
+
+    LMA SA01: definição dos estilos do botão (o "COMPRE AGORA")
+
+commit eae03ea7a0f14726f285c45533dfb09ceeb56819
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 15:01:45 2026 -0300
+
+    LMA SA01: definição dos estilos dos parágrafos da classe "texto-destaque"
+
+commit 5f958c5861f87662a71459e9c8443bafd3cf7a6e
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 14:59:44 2026 -0300
+
+    LMA SA01: definição dos estilos dos títulos h1 da classe "texto-destaque"
+
+commit ac848afaf8f151c5ce40fcdcead650a0325c064a
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 14:57:25 2026 -0300
+
+    LMA SA01: definição dos estilos da classe "destaque"
+
+commit 9a679f0ea2f42cd8b3433456b70c83b35593ab7c
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 14:55:54 2026 -0300
+
+    LMA SA01: definição dos estilos dos links do Menu
+
+commit 006e5a19ae14be888f5a32884b342c6bbddab86e
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 14:54:25 2026 -0300
+
+    LMA SA01: definição do estilo do nav e as listas dele
+
+commit 15df75637e43a9f93be4c96b771dbf305432f73e
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 14:51:35 2026 -0300
+
+    LMA SA 01: ajuste do tamanho dos ícones
+
+commit f932518763a27184f5d407b955459cadd8c9e5db
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 14:50:06 2026 -0300
+
+    LMA SA01: definição dos estilos da classe "icones"
+
+commit aea732a02948cd913df29d2c00a4922747e22a46
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 14:48:27 2026 -0300
+
+    LMA SA01: definição dos estilos da classe "cabecalho"
+
+commit 22a8c8743581b9fb5ee13ea9ad4f5d0c44771e8c
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 14:46:35 2026 -0300
+
+    LMA SA01: definição da cor de fundo do header
+
+commit b70cfdb06594909d4cc1e631e9d3a17bb460870e
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 14:44:35 2026 -0300
+
+    LMA SA01: configuração do estilo do body
+
+commit 34a1571296844ec572345e947cdbef8447ce3dd6
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 14:39:50 2026 -0300
+
+    LMA SA01: zerando as margens e espaçamentos padrão do navegador
+
+commit 10d7d4ce8b1850079aeb8ccc26bd790df70b6245
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 14:38:01 2026 -0300
+
+    LMA SA01: colocando o style.css (ainda vazio) no index html
+
+commit fafb17e8eb6c6ffc815657e0b4ab97b04ec847e8
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 14:31:51 2026 -0300
+
+    LMA SA01: adição do conteúdo do footer
+
+commit c4d7c6cf9f54e960e7565904c4bf3807bfb75689
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 13:57:54 2026 -0300
+
+    LMA SA01: implementação do footer
+
+commit d24025f9d8b438193fbc1215942b49211627d442
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 13:50:03 2026 -0300
+
+    LMA SA01: adição da seção para os produtos em destaque
+
+commit 617e3a7e3707d6f9358c6855a983ec7bc76a84a3
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 13:28:33 2026 -0300
+
+    LMA SA01: adição da section para destaque e benefícios
+
+commit 593b24e047f9cc79ab5fae6441df1f046eef4095
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 13:08:06 2026 -0300
+
+    LMA SA01: implementação do <main> no index.html
+
+commit e95303c5630b8efe0052f432de5f5015553e3211
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 12:38:03 2026 -0300
+
+    LMA SA01: implementação do <nav> no <header> com as outras páginas
+
+commit ff2306f6c5b8a10aa710e2736bb12d15712a71f9
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 12:30:07 2026 -0300
+
+    LMA SA01: implementação dos ícones no <header>
+
+commit 2d71167c25d7374295eb89cf80a10b20d6ad0ec0
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 12:15:41 2026 -0300
+
+    LMA SA01: colocando a logo
+
+commit 0cf16353a33653dce6d193918a1607a7c8757536
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 10:48:30 2026 -0300
+
+    LMA SA01: implementação do <header> no index.html
+
+commit 60b5f7a5845a15d5409490619e3999dd3347d9c3
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 17 10:46:37 2026 -0300
+
+    LMA SA01: estrutura inicial do index.html
+
+commit 1590e7bbbcc113507fca9a1dd282190b6ad55dda
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 11 10:35:57 2026 -0300
+
+    reajustes pós aulaHTML09
+
+commit 71ade12d2444777a213df1f7e959e7ad384a9665
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 11 10:31:55 2026 -0300
+
+    AULAHTML09 Finalizada!
+
+commit 78bd3b47b959fee6607de627c760d442b9753d6a
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 11 10:30:23 2026 -0300
+
+    aula 09: realizacao do "Hora de praticar!"
+
+commit ac0b32c8cd3ec56de38f22b584c8deed11b6e106
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 11 10:16:55 2026 -0300
+
+    aula 09: realizacao do que se pede para o estilo.css
+
+commit 5ab9d59d8f94ee825d11c39ad96072eb94eb1ee4
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 11 10:12:02 2026 -0300
+
+    aula 09: realizacao do que se pede para o index.html
+
+commit 8f78a24ff2294b275811fe69afb252e59762cfa0
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 11 10:05:36 2026 -0300
+
+    aula 09: criacao do index.html e estilo.css
+
+commit 755370b616650a6baffd23b9ddd5c5e9c7b0668a
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 11 09:45:10 2026 -0300
+
+    html: reajustes após AULAHTML08
+
+commit 00baab8064daca3ee68bc3faaab0eea6c755686b
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 11 09:41:49 2026 -0300
+
+    AULAHTML08 Finalizada!
+
+commit 5a453fafe7fd1e172c0b4613936da8e7afcf0797
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 11 09:00:43 2026 -0300
+
+    aula 08 (opcional): criacao do index.html e estilo.css
+
+commit 19cdd54d5096ddc09adf054646193b3f6c58f8a8
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 10 15:37:30 2026 -0300
+
+    AULAHTML04(opcional) finalizada!
+
+commit 805278b9983e3b56c3a67022f7ec04f65612b6a2
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 10 15:36:32 2026 -0300
+
+    AULAHTML04(opcional) finalizada!
+
+commit 20c7f57a6f674eb6b4c1acd527727f0284c520d4
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 10 10:44:30 2026 -0300
+
+    html: reajustes (exclusao do historico.log)
+
+commit 98f87dcd47ae385a4c6e1658a339d912c30553f3
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 10 10:40:07 2026 -0300
+
+    AULAHTML04 Finalizada!
+
+commit 5fe62a002d24afc775eabe509cefcb7d1d1afbaf
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 10 10:38:49 2026 -0300
+
+    AULAHTML04 Finalizada!
+
+commit 0fcaa8f393bd165edf1c6a366956c694bb021bad
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 10 09:43:38 2026 -0300
+
+    AULAHTML04 Finalizada!
+
+commit a5a8d2dc4c4ec0a8132e53012af165937ceb3085
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 10 09:43:08 2026 -0300
+
+    aula 04: realizacao do que se pede para o estilos.css
+
+commit e85b9c91d08a57a268a4b194521140bc9aa4c3f0
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 10 09:06:17 2026 -0300
+
+    aula 04: realizacao do que se pede para o index.html
+
+commit 4a65d61b1edf5600aae06d12ca071f10b2e3cade
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 10 08:40:46 2026 -0300
+
+    aula 04: criacao do index.html e estilos.css
+
+commit d8a30b0198eb50910aa66e4cd5577292dd25a534
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 10 08:38:55 2026 -0300
+
+    html: reajustes nos arquivos
+
+commit 1a6969d7f559657d99ea44159798d47460c12541
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 10 08:33:54 2026 -0300
+
+    html: reajuste de pastas e arquivos
+
+commit 39f8e32a76bdb0eaf3d176e838c44eb1834221ab
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 10 08:27:27 2026 -0300
+
+    html: criacao da pasta 'HTML'
+
+commit 01b4b6edb1426358d23ee370d04c0b03c8179ca4
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 10 08:14:38 2026 -0300
+
+    html: criacao das pastas 'Imagens' e 'Vídeos'
+
+commit 03f45717615ca3bdd6ddf6f06d39994be1148c94
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 4 08:21:14 2026 -0300
+
+    AULAHTML03 Finalizada!
+
+commit f754a6ff7f8a44e1e027b5e981c78a5016d17b07
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 4 08:20:44 2026 -0300
+
+    aula 03: finalizacao do bloco 7
+
+commit 6f206e283e58f5ffdaad77a9b97a441b40257962
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 4 08:19:19 2026 -0300
+
+    aula 03: adicao da segunda <section> e conteudo
+
+commit cfd17acb4390fce11e87c3916086185a3fdb7f24
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Sep 4 08:11:37 2026 -0300
+
+    aula 03: adicao da <section> "Sobre Mim"
+
+commit 14ac806947b9c98a8b8b002d1af15dece9eaa2a7
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 3 10:43:50 2026 -0300
+
+    AULAHTML02 Finalizada!
+
+commit 1fcc60265cae8b47543beef318ab9ae5c932f56f
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 3 10:42:29 2026 -0300
+
+    AULAHTML02 Finalizada!
+
+commit e13c577d5c87d9ff3c1ddc29364f17cdf6dadbbf
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 3 10:41:13 2026 -0300
+
+    AULAHTML02 Finalizada!
+
+commit fcdb9042e248b30008c552bbe3d3ebeb24f11521
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 3 10:36:15 2026 -0300
+
+    AULAHTML02 Finalizada!
+
+commit 26c79593b346c0005207e64c4872407cc120c730
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 3 10:20:16 2026 -0300
+
+    AULAHTML02 Finalizada!
+
+commit 352a854ed9a9fbf99f2df6a47ee3979bd47453dc
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 3 10:17:04 2026 -0300
+
+    aula 02: adicao do video e alteracoes
+
+commit cb2c7964c0d76f7850dc19cc12fab9084415a206
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 3 10:10:33 2026 -0300
+
+    aula 02: adicao do marquee e alteracoes
+
+commit d76e95fc667a4a76b0b3114e0a1a88a3484dd288
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 3 10:09:38 2026 -0300
+
+    aula 02: adicao da imagem e alteracoes
+
+commit 061ff37b5a1e600586bbff96feae5565ff190681
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 3 10:06:06 2026 -0300
+
+    aula 02: finalizacao do bloco 2
+
+commit 50dd111eed7fb16662138f65418753bd4ba5c834
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 3 10:01:32 2026 -0300
+
+    aula 02: finalizacao do bloco 1
+
+commit 17b939ec7cbdad0b8c4897130b9d7e3209a21ed9
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 3 09:58:50 2026 -0300
+
+    aula 02: estrutura do <head>
+
+commit 8c4f87ace8d1a15238baf8826123b21a9a1ee4fa
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 3 09:56:59 2026 -0300
+
+    aula 02: estrutura básica do html
+
+commit 2201316892ee3ca27027a70886ae95dd92e2800b
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Sep 3 09:54:10 2026 -0300
+
+    criacao do index.html
+
+commit 693b8e16293ca5778cf3d499276d9d75cbc6839b
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Aug 20 09:43:40 2026 -0300
+
+    docs: realizacao da introducao a Web e Linguagens de Marcacao
+
+commit 70d9f3add8b1ef0ccce32e254394a214f14c9bd0
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Aug 20 09:38:21 2026 -0300
+
+    docs: realizacao da introdução à Web e Linguagens de Marcação
+
+commit a5b38ea16e6d20373bd159d999787448c7b22983
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Mon Aug 17 18:48:04 2026 -0300
+
+    feat: encerramento do dossiê e documentação da SA01
+
+commit 947fdf6b25e6e71e9693bfa3a397815ff919bca6
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Aug 14 09:04:45 2026 -0300
+
+    feat: encerramento do dossiê e documentação da SA01
+
+commit 19f853a4d7b50daa1e226e51f6c0d0dbd25a39f8
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Aug 14 09:01:04 2026 -0300
+
+    feat: encerramento do dossiê e documentação da SA01
+
+commit f72353209419234d654ee3f8d96fca01ede05a17
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Aug 14 08:55:08 2026 -0300
+
+    feat: encerramento do dossiê e documentação da SA01
+
+commit 22121c7443dc2efb199da142c890c51589c8ef16
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Aug 14 08:49:54 2026 -0300
+
+    docs: alteracoes finais na estrutura do projeto e a documentacao
+
+commit b313a8c416f468aa13d13a483d2bed83d3adb3c2
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Aug 14 08:02:04 2026 -0300
+
+    docs: alteracao final do README.md
+
+commit 684adceb21e65d1c9830729be906808cf4aeba6e
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Fri Aug 14 07:57:11 2026 -0300
+
+    feat: encerramento do dossiê e documentação da SA01
+
+commit b5d3879d641b2db44c75ce66e3659d3e600470b3
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Aug 13 14:37:45 2026 -0300
+
+    docs: segunda alteracao no guia de estilo inicial
+
+commit 7badd2f074514632ca23741bac8220dd238d306f
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Aug 13 13:39:57 2026 -0300
+
+    docs: adiciona icons e logo da loja virtual de roupas
+
+commit 91351a2c34603609122d43c07ad600560f07fdce
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Aug 13 10:49:05 2026 -0300
+
+    docs: alteracao no guia de estilo inicial
+
+commit e79e54454ef84dd068582491d79a958043cdd3a9
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Aug 13 08:35:53 2026 -0300
+
+    docs: insere conteúdo do Guia de Estilo Inicial
+
+commit 7eae1734b3dd61b4848115743b2f45dd761a5f1e
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Aug 13 08:20:41 2026 -0300
+
+    docs: insere o guia de estilo inicial
+
+commit cc3c0067aa797f9e90fc4c001a8558868805c32a
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Aug 13 08:14:57 2026 -0300
+
+    docs: ajuste dos arquivos e pastas após alteração do nome da pasta Loja-virtual-de-roupas/
+
+commit dc3085d418eff2142c8bc2921ee79370b34c30b5
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Aug 13 08:05:38 2026 -0300
+
+    docs: altera o nome da pasta Loja\ virtual\ de\ roupas/ para Loja-virtual-de-roupas/
+
+commit 71c9a06b884b90d91a4d3aa3d57d60a0d88c228c
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Aug 13 07:45:26 2026 -0300
+
+    docs: alterar o nome da pasta Projeto_novaweb/ para Projeto_loja_roupas/
+
+commit f3e6af8e12b5004c4d2fd98af5bb844e86afb444
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Aug 6 14:43:51 2026 -0300
+
+    docs: adiciona o README.md no Projeto_novaweb
+
+commit 4415304c2e86183f506ce36955ac562b80531d5e
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Aug 6 14:08:13 2026 -0300
+
+    docs: adiciona a estrutura inicial da loja virtual
+
+commit 985038cbb4fd1673704e899f4f242daf31d81d18
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Jul 30 13:23:23 2026 -0300
+
+    docs: insere secao de requisitos no README
+
+commit 6ea6955d2d6a9d33caec6def548c1997110f55df
+Author: Larah Mônnica de Oliveira Lima <larah.lima@edu.senai.br>
+Date:   Thu Jul 30 13:15:22 2026 -0300
+
+    docs: adiciona documentacao inicial do projeto e notas de estudo
