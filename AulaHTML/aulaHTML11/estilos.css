@@ -32,7 +32,7 @@ header nav ul li a {
 }
 
 main table {
-    margin: 0 auto;
+    margin: 15px auto;
     color: gray;
     width: 50%;
     border: 1px solid;
