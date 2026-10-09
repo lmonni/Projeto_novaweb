@@ -12,7 +12,7 @@
         <h1>Bem-vindo ao Perfil</h1>
     </header>
     <main>
-        <form class="form">
+        <form class="form" id="formulario">
             <div class="alert alert-info" role="alert" id="mensagem" style="display: none;">
             </div>
 
@@ -30,7 +30,7 @@
             <div class="form-group">
                 <label for="nascimento" class="form-label">Nascimento: </label>
                 <input type="date" class="form-control" id="nascimento"
-                name="nascimento" required>
+                name="nascimento" min="1909-01-01" max="2016-01-01" required>
             </div>
 
             <div class="form-group">
@@ -40,24 +40,24 @@
             </div>
 
             <div class="form-group">
-                <label class="form-label">Escolaridade: </label>
+                <label class="form-label">Experiência: </label>
 
                 <div>
-                    <input type="radio" id="junior" name="escolaridade"
+                    <input type="radio" id="junior" name="experiencia"
                     value="Júnior" required>
-                    <label for="medio">Júnior</label>
+                    <label for="junior">Júnior</label>
                 </div>
 
                 <div>
-                    <input type="radio" id="pleno" name="escolaridade"
+                    <input type="radio" id="pleno" name="experiencia"
                     value="Pleno">
-                    <label for="superior">Pleno</label>
+                    <label for="pleno">Pleno</label>
                 </div>
 
                 <div>
-                    <input type="radio" id="senior" name="escolaridade"
+                    <input type="radio" id="senior" name="experiencia"
                     value="Sênior">
-                    <label for="superior">Sênior</label>
+                    <label for="senior">Sênior</label>
                 </div>
 
             </div>
@@ -104,30 +104,41 @@
                 rows="4"></textarea>
             </div>
 
-            <div class="form-group">
-                <button type="button" onclick="mensagem()" 
-                class="btn btn-primary">Salvar</button>
+            <div class="form-group mt-3">
+                <button type="submit" class="btn btn-primary">Salvar</button>
+                <button type="reset" class="btn btn-secondary">Limpar</button>
             </div>
 
         </form>
     </main>
     
     <script type="text/javascript">
-        function mensagem() {
+    function mensagem() {
+        const msg = document.querySelector('#mensagem');
+        msg.style.display = 'block';
+        msg.textContent = 'Perfil salvo com sucesso!';
+    }
+
+    function validaCPF() {
+        const cpf = document.querySelector('#cpf').value;
+
+        if (cpf.length !== 11) {
             const msg = document.querySelector('#mensagem');
             msg.style.display = 'block';
-            msg.textContent = 'Perfil salvo com sucesso!';
+            msg.textContent = 'CPF inválido. Deve conter 11 dígitos.';
+            return false;
         }
 
-        function validaCPF() {
-            const cpf = document.querySelector('#cpf').value;
-            console.log(cpf);
-            if (cpf.length !== 11) {
-                const msg = document.querySelector('#mensagem');
-                msg.style.display = 'block';
-                msg.textContent = 'CPF inválido. Deve conter 11 dígitos';
-            }
+        return true;
+    }
+
+    document.querySelector('#formulario').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        if (validaCPF()) {
+            mensagem();
         }
+    });
     </script>
 </body>
 </html>
