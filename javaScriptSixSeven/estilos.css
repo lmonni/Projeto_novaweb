@@ -10,3 +10,14 @@ body {
     align-items: center;
     background-color: white;
 }
+
+.form {
+    background-color: white;
+    padding: 5px;
+    display: flex;
+}
+
+.form .form-control {
+    width: 100%;
+    margin: 5px;
+}
