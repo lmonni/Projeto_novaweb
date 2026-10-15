@@ -1,0 +1,61 @@
+/*
+Descricao: Exercícios da Aula 14 - CSS para Formulários
+nome_arquivo: index.html
+nome_exercicio: Atividade 14 - CSS para Formulários
+nome_aluno: Larah Mônnica de Oliveira Lima
+email_aluno: larah.lima@edu.senai.br
+turma: TDE-1BAA-26
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    background-color: lavender;
+}
+
+h1 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin: 0 auto 10px;
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border: 2px solid slateblue;
+    outline: none;
+}
+
+input:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+
+input:valid {
+    border-color: lightgreen;
+}
+
+input:invalid {
+    border-color: indianred;
+}
+
+button {
+    display: block;
+    width: 300px;
+    margin: 0 auto 40px;
+    padding: 8px;
+    cursor: pointer;
+}
