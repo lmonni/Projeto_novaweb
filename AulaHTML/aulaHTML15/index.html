@@ -49,6 +49,17 @@ turma: TDE-1BAA-26
                 campo.disabled = true;
             };
         }
+
+        function cadastrar(event) {
+            event.preventDefault();
+
+            const nome = document.getElementById('nome').value;
+            const msg = document.getElementById('mensagem');
+
+            msg.textContent = 'Cadastrado com sucesso';
+            msg.style.display = 'block';
+        }
+
     </script>
 
 </body>
