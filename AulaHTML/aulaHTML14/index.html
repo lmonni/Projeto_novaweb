@@ -25,5 +25,18 @@
     <input type="text" id="cidade" required disabled>
     <button onclick="habilitar('cidade')">Habilitar</button>
 
+    <script>
+        function habilitar(id) {
+            const campo = document.getElementById(id);
+
+            campo.disabled = false;
+            campo.focus();
+
+            campo.onblur = function() {
+                campo.disabled = true;
+            };
+        }
+    </script>
+
 </body>
 </html>
