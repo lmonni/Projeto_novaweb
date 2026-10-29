@@ -1,4 +1,4 @@
-# Sistema Administrativo Interno da FrameYou
+# FrameYou - Sistema Administrativo Interno
 
 ## 1. Matriz de Recursos Humanos
 
