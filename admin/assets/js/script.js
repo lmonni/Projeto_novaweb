@@ -291,3 +291,27 @@ function exibirUsuarios(lista) {
 }
 
 exibirUsuarios(usuarios);
+
+const campoPesquisa = document.getElementById("pesquisa-usuario");
+
+if (campoPesquisa) {
+
+    campoPesquisa.addEventListener("input", function() {
+
+        const pesquisa = campoPesquisa.value.toLowerCase().trim();
+
+        const usuariosFiltrados = usuarios.filter(function(usuario) {
+
+            return (
+                usuario.id.toString().includes(pesquisa) ||
+                usuario.nome.toLowerCase().includes(pesquisa) ||
+                usuario.email.toLowerCase().includes(pesquisa)
+            );
+
+        });
+
+        exibirUsuarios(usuariosFiltrados);
+
+    });
+
+}
