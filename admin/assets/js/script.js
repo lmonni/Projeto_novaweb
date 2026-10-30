@@ -231,3 +231,63 @@ if (botaoEditarPerfil && botaoSalvarPerfil) {
     });
 
 }
+
+const usuarios = [
+    {
+        id: 1,
+        nome: "Ana Souza",
+        email: "ana@email.com",
+        telefone: "(17) 99999-1111",
+        funcao: "Administrador",
+        status: "Ativo"
+    },
+    {
+        id: 2,
+        nome: "Carlos Oliveira",
+        email: "carlos@email.com",
+        telefone: "(17) 99999-2222",
+        funcao: "Funcionário",
+        status: "Ativo"
+    },
+    {
+        id: 3,
+        nome: "Mariana Santos",
+        email: "mariana@email.com",
+        telefone: "(17) 99999-3333",
+        funcao: "Funcionário",
+        status: "Inativo"
+    }
+];
+
+const listaUsuarios = document.getElementById("lista-usuarios");
+
+function exibirUsuarios(lista) {
+
+    if (!listaUsuarios) return;
+
+    listaUsuarios.innerHTML = "";
+
+    lista.forEach(function(usuario) {
+
+        const linha = document.createElement("tr");
+
+        linha.innerHTML = `
+            <td>${usuario.id}</td>
+            <td>${usuario.nome}</td>
+            <td>${usuario.email}</td>
+            <td>${usuario.telefone}</td>
+            <td>${usuario.funcao}</td>
+            <td>${usuario.status}</td>
+            <td>
+                <button type="button">EDITAR</button>
+                <button type="button">EXCLUIR</button>
+            </td>
+        `;
+
+        listaUsuarios.appendChild(linha);
+
+    });
+
+}
+
+exibirUsuarios(usuarios);
