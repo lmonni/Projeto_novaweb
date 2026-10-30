@@ -315,3 +315,74 @@ if (campoPesquisa) {
     });
 
 }
+
+const filtroStatus = document.getElementById("filtro-status");
+const botaoFiltrar = document.getElementById("filtrar-usuarios");
+
+if (botaoFiltrar && filtroStatus) {
+
+    botaoFiltrar.addEventListener("click", function() {
+
+        const pesquisa = campoPesquisa
+            ? campoPesquisa.value.toLowerCase().trim()
+            : "";
+
+        const statusSelecionado = filtroStatus.value;
+
+        const usuariosFiltrados = usuarios.filter(function(usuario) {
+
+            const correspondePesquisa =
+                usuario.id.toString().includes(pesquisa) ||
+                usuario.nome.toLowerCase().includes(pesquisa) ||
+                usuario.email.toLowerCase().includes(pesquisa);
+
+            const correspondeStatus =
+                statusSelecionado === "todos" ||
+                usuario.status === statusSelecionado;
+
+            return correspondePesquisa && correspondeStatus;
+
+        });
+
+        exibirUsuarios(usuariosFiltrados);
+
+    });
+
+}
+
+const botaoAdicionarUsuario = document.getElementById("adicionar-usuario");
+
+if (botaoAdicionarUsuario) {
+
+    botaoAdicionarUsuario.addEventListener("click", function() {
+
+        const nome = prompt("Digite o nome completo:");
+        if (nome === null || nome.trim() === "") return;
+
+        const email = prompt("Digite o e-mail:");
+        if (email === null || email.trim() === "") return;
+
+        const telefone = prompt("Digite o telefone:");
+        if (telefone === null || telefone.trim() === "") return;
+
+        const funcao = prompt("Digite a função do usuário:");
+        if (funcao === null || funcao.trim() === "") return;
+
+        const novoUsuario = {
+            id: usuarios.length > 0
+                ? Math.max(...usuarios.map(usuario => usuario.id)) + 1
+                : 1,
+            nome: nome.trim(),
+            email: email.trim(),
+            telefone: telefone.trim(),
+            funcao: funcao.trim(),
+            status: "Ativo"
+        };
+
+        usuarios.push(novoUsuario);
+
+        exibirUsuarios(usuarios);
+
+    });
+
+}
