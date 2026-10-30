@@ -1,3 +1,4 @@
+
 const formularioLogin = document.querySelector(".formulario-login");
 const formularioCadastro = document.querySelector(".formulario-cadastro");
 
@@ -5,6 +6,7 @@ const linkCadastro = document.getElementById("link-cadastro");
 const linkLogin = document.getElementById("link-login");
 
 if (linkCadastro && linkLogin && formularioLogin && formularioCadastro) {
+
     linkCadastro.addEventListener("click", function(event) {
         event.preventDefault();
 
@@ -18,6 +20,7 @@ if (linkCadastro && linkLogin && formularioLogin && formularioCadastro) {
         formularioCadastro.hidden = true;
         formularioLogin.hidden = false;
     });
+
 }
 
 function exibirMensagem(elemento, mensagem, tipo) {
@@ -26,6 +29,7 @@ function exibirMensagem(elemento, mensagem, tipo) {
 }
 
 function limparMensagens(formulario) {
+
     formulario.querySelectorAll(".mensagem").forEach(function(elemento) {
         elemento.remove();
     });
@@ -33,9 +37,11 @@ function limparMensagens(formulario) {
     formulario.querySelectorAll("input").forEach(function(campo) {
         campo.classList.remove("is-error", "is-success");
     });
+
 }
 
 function alterarEstado(campo, estado) {
+
     campo.classList.remove("is-success", "is-error", "is-disabled");
 
     if (estado !== "default" && estado !== "focus") {
@@ -43,12 +49,14 @@ function alterarEstado(campo, estado) {
     }
 
     campo.disabled = estado === "disabled";
+
 }
 
 const formCadastro = document.getElementById("form-cadastro");
 const mensagemCadastro = document.getElementById("mensagem-cadastro");
 
 if (formCadastro && mensagemCadastro) {
+
     formCadastro.addEventListener("submit", function(event) {
         event.preventDefault();
 
@@ -97,13 +105,16 @@ if (formCadastro && mensagemCadastro) {
             "Cadastro validado com sucesso!",
             "sucesso"
         );
+
     });
+
 }
 
 const formLogin = document.getElementById("form-login");
 const mensagemLogin = document.getElementById("mensagem-login");
 
 if (formLogin && mensagemLogin) {
+
     formLogin.addEventListener("submit", function(event) {
         event.preventDefault();
 
@@ -140,20 +151,26 @@ if (formLogin && mensagemLogin) {
         );
 
         window.location.href = "lista.html";
+
     });
+
 }
 
 function verificarAcesso() {
+
     const autenticado = sessionStorage.getItem("usuarioAutenticado");
 
     if (autenticado !== "true") {
         window.location.href = "login.html";
     }
+
 }
 
 function sairSistema() {
+
     sessionStorage.removeItem("usuarioAutenticado");
     window.location.href = "login.html";
+
 }
 
 const paginaAtual = window.location.pathname;
@@ -174,6 +191,15 @@ const conteudoUsuarios = document.getElementById("conteudo-usuarios");
 function alternarAba(abaSelecionada) {
 
     const perfilAtivo = abaSelecionada === "perfil";
+
+    if (
+        !abaPerfil ||
+        !abaUsuarios ||
+        !conteudoPerfil ||
+        !conteudoUsuarios
+    ) {
+        return;
+    }
 
     abaPerfil.classList.toggle("ativa", perfilAtivo);
     abaUsuarios.classList.toggle("ativa", !perfilAtivo);
@@ -233,6 +259,7 @@ if (botaoEditarPerfil && botaoSalvarPerfil) {
 }
 
 const usuarios = [
+
     {
         id: 1,
         nome: "Ana Souza",
@@ -241,6 +268,7 @@ const usuarios = [
         funcao: "Administrador",
         status: "Ativo"
     },
+
     {
         id: 2,
         nome: "Carlos Oliveira",
@@ -249,6 +277,7 @@ const usuarios = [
         funcao: "Funcionário",
         status: "Ativo"
     },
+
     {
         id: 3,
         nome: "Mariana Santos",
@@ -257,11 +286,18 @@ const usuarios = [
         funcao: "Funcionário",
         status: "Inativo"
     }
+
 ];
 
 const listaUsuarios = document.getElementById("lista-usuarios");
+const campoPesquisa = document.getElementById("pesquisa-usuario");
+const filtroStatus = document.getElementById("filtro-status");
 
-function exibirUsuarios(lista) {
+const botaoFiltrar = document.getElementById("filtrar-usuarios");
+const botaoAdicionarUsuario = document.getElementById("adicionar-usuario");
+const botaoExportar = document.getElementById("exportar-usuarios");
+
+function exibirUsuarios(lista = usuarios) {
 
     if (!listaUsuarios) return;
 
@@ -271,118 +307,311 @@ function exibirUsuarios(lista) {
 
         const linha = document.createElement("tr");
 
-        linha.innerHTML = `
-            <td>${usuario.id}</td>
-            <td>${usuario.nome}</td>
-            <td>${usuario.email}</td>
-            <td>${usuario.telefone}</td>
-            <td>${usuario.funcao}</td>
-            <td>${usuario.status}</td>
-            <td>
-                <button type="button">EDITAR</button>
-                <button type="button">EXCLUIR</button>
-            </td>
-        `;
+        const valores = [
+            usuario.id,
+            usuario.nome,
+            usuario.email,
+            usuario.telefone,
+            usuario.funcao,
+            usuario.status
+        ];
 
+        valores.forEach(function(valor) {
+
+            const celula = document.createElement("td");
+            celula.textContent = valor;
+
+            linha.appendChild(celula);
+
+        });
+
+        const celulaAcoes = document.createElement("td");
+
+        const botaoEditar = document.createElement("button");
+        botaoEditar.type = "button";
+        botaoEditar.textContent = "EDITAR";
+
+        botaoEditar.addEventListener("click", function() {
+            editarUsuario(usuario.id);
+        });
+
+        const botaoExcluir = document.createElement("button");
+        botaoExcluir.type = "button";
+        botaoExcluir.textContent = "EXCLUIR";
+
+        botaoExcluir.addEventListener("click", function() {
+            excluirUsuario(usuario.id);
+        });
+
+        celulaAcoes.appendChild(botaoEditar);
+        celulaAcoes.appendChild(botaoExcluir);
+
+        linha.appendChild(celulaAcoes);
         listaUsuarios.appendChild(linha);
 
     });
 
+    if (lista.length === 0) {
+
+        const linha = document.createElement("tr");
+        const celula = document.createElement("td");
+
+        celula.colSpan = 7;
+        celula.textContent = "Nenhum usuário encontrado.";
+
+        linha.appendChild(celula);
+        listaUsuarios.appendChild(linha);
+
+    }
+
 }
 
-exibirUsuarios(usuarios);
+function filtrarUsuarios() {
 
-const campoPesquisa = document.getElementById("pesquisa-usuario");
+    const pesquisa = campoPesquisa
+        ? campoPesquisa.value.toLowerCase().trim()
+        : "";
+
+    const statusSelecionado = filtroStatus
+        ? filtroStatus.value
+        : "todos";
+
+    const usuariosFiltrados = usuarios.filter(function(usuario) {
+
+        const correspondePesquisa =
+            usuario.id.toString().includes(pesquisa) ||
+            usuario.nome.toLowerCase().includes(pesquisa) ||
+            usuario.email.toLowerCase().includes(pesquisa);
+
+        const correspondeStatus =
+            statusSelecionado === "todos" ||
+            usuario.status === statusSelecionado;
+
+        return correspondePesquisa && correspondeStatus;
+
+    });
+
+    exibirUsuarios(usuariosFiltrados);
+
+}
 
 if (campoPesquisa) {
 
-    campoPesquisa.addEventListener("input", function() {
-
-        const pesquisa = campoPesquisa.value.toLowerCase().trim();
-
-        const usuariosFiltrados = usuarios.filter(function(usuario) {
-
-            return (
-                usuario.id.toString().includes(pesquisa) ||
-                usuario.nome.toLowerCase().includes(pesquisa) ||
-                usuario.email.toLowerCase().includes(pesquisa)
-            );
-
-        });
-
-        exibirUsuarios(usuariosFiltrados);
-
-    });
+    campoPesquisa.addEventListener("input", filtrarUsuarios);
 
 }
 
-const filtroStatus = document.getElementById("filtro-status");
-const botaoFiltrar = document.getElementById("filtrar-usuarios");
+if (botaoFiltrar) {
 
-if (botaoFiltrar && filtroStatus) {
-
-    botaoFiltrar.addEventListener("click", function() {
-
-        const pesquisa = campoPesquisa
-            ? campoPesquisa.value.toLowerCase().trim()
-            : "";
-
-        const statusSelecionado = filtroStatus.value;
-
-        const usuariosFiltrados = usuarios.filter(function(usuario) {
-
-            const correspondePesquisa =
-                usuario.id.toString().includes(pesquisa) ||
-                usuario.nome.toLowerCase().includes(pesquisa) ||
-                usuario.email.toLowerCase().includes(pesquisa);
-
-            const correspondeStatus =
-                statusSelecionado === "todos" ||
-                usuario.status === statusSelecionado;
-
-            return correspondePesquisa && correspondeStatus;
-
-        });
-
-        exibirUsuarios(usuariosFiltrados);
-
-    });
+    botaoFiltrar.addEventListener("click", filtrarUsuarios);
 
 }
-
-const botaoAdicionarUsuario = document.getElementById("adicionar-usuario");
 
 if (botaoAdicionarUsuario) {
 
     botaoAdicionarUsuario.addEventListener("click", function() {
 
         const nome = prompt("Digite o nome completo:");
+
         if (nome === null || nome.trim() === "") return;
 
         const email = prompt("Digite o e-mail:");
+
         if (email === null || email.trim() === "") return;
 
+        if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim())) {
+
+            alert("Informe um e-mail válido.");
+            return;
+
+        }
+
         const telefone = prompt("Digite o telefone:");
+
         if (telefone === null || telefone.trim() === "") return;
 
         const funcao = prompt("Digite a função do usuário:");
+
         if (funcao === null || funcao.trim() === "") return;
 
         const novoUsuario = {
+
             id: usuarios.length > 0
                 ? Math.max(...usuarios.map(usuario => usuario.id)) + 1
                 : 1,
+
             nome: nome.trim(),
             email: email.trim(),
             telefone: telefone.trim(),
             funcao: funcao.trim(),
             status: "Ativo"
+
         };
 
         usuarios.push(novoUsuario);
 
-        exibirUsuarios(usuarios);
+        filtrarUsuarios();
+
+        alert("Usuário adicionado com sucesso!");
 
     });
 
 }
+
+function editarUsuario(id) {
+
+    const usuario = usuarios.find(function(item) {
+        return item.id === id;
+    });
+
+    if (!usuario) return;
+
+    const nome = prompt("Nome completo:", usuario.nome);
+
+    if (nome === null || nome.trim() === "") return;
+
+    const email = prompt("E-mail:", usuario.email);
+
+    if (email === null || email.trim() === "") return;
+
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim())) {
+
+        alert("Informe um e-mail válido.");
+        return;
+
+    }
+
+    const telefone = prompt("Telefone:", usuario.telefone);
+
+    if (telefone === null || telefone.trim() === "") return;
+
+    const funcao = prompt("Função:", usuario.funcao);
+
+    if (funcao === null || funcao.trim() === "") return;
+
+    const status = prompt(
+        "Status (Ativo ou Inativo):",
+        usuario.status
+    );
+
+    if (status === null) return;
+
+    if (
+        status.trim().toLowerCase() !== "ativo" &&
+        status.trim().toLowerCase() !== "inativo"
+    ) {
+
+        alert("Informe um status válido: Ativo ou Inativo.");
+        return;
+
+    }
+
+    usuario.nome = nome.trim();
+    usuario.email = email.trim();
+    usuario.telefone = telefone.trim();
+    usuario.funcao = funcao.trim();
+
+    usuario.status =
+        status.trim().toLowerCase() === "ativo"
+            ? "Ativo"
+            : "Inativo";
+
+    filtrarUsuarios();
+
+    alert("Usuário atualizado com sucesso!");
+
+}
+
+function excluirUsuario(id) {
+
+    const usuario = usuarios.find(function(item) {
+        return item.id === id;
+    });
+
+    if (!usuario) return;
+
+    const confirmar = confirm(
+        `Deseja realmente excluir o usuário ${usuario.nome}?`
+    );
+
+    if (!confirmar) return;
+
+    const indice = usuarios.findIndex(function(item) {
+        return item.id === id;
+    });
+
+    usuarios.splice(indice, 1);
+
+    filtrarUsuarios();
+
+    alert("Usuário excluído com sucesso!");
+
+}
+
+if (botaoExportar) {
+
+    botaoExportar.addEventListener("click", function() {
+
+        if (usuarios.length === 0) {
+
+            alert("Não há usuários para exportar.");
+            return;
+
+        }
+
+        const cabecalho = [
+            "ID",
+            "Nome completo",
+            "E-mail",
+            "Telefone",
+            "Função",
+            "Status"
+        ];
+
+        const linhas = usuarios.map(function(usuario) {
+
+            return [
+                usuario.id,
+                usuario.nome,
+                usuario.email,
+                usuario.telefone,
+                usuario.funcao,
+                usuario.status
+            ];
+
+        });
+
+        const csv = [cabecalho, ...linhas]
+            .map(function(linha) {
+
+                return linha.map(function(valor) {
+
+                    return `"${String(valor).replace(/"/g, '""')}"`;
+
+                }).join(";");
+
+            })
+            .join("\n");
+
+        const arquivo = new Blob(
+            ["\uFEFF" + csv],
+            { type: "text/csv;charset=utf-8;" }
+        );
+
+        const url = URL.createObjectURL(arquivo);
+        const link = document.createElement("a");
+
+        link.href = url;
+        link.download = "usuarios-frameyou.csv";
+
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+
+        URL.revokeObjectURL(url);
+
+    });
+
+}
+
+exibirUsuarios();
