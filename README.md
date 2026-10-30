@@ -1,6 +1,62 @@
 # FrameYou - Sistema Administrativo Interno
 
-## 1. Matriz de Recursos Humanos
+## 1. Descrição do Projeto
+
+O projeto FrameYou consiste no desenvolvimento de um sistema administrativo interno para uma loja virtual de roupas. A plataforma tem como finalidade permitir que os colaboradores acessem o sistema por meio de autenticação, visualizem suas informações de perfil e consultem dados operacionais de maneira organizada.
+
+Inicialmente, o projeto contempla o planejamento e a prototipagem das interfaces nas versões Desktop e Mobile, com implementação futura utilizando HTML, CSS e JavaScript.
+
+**Desenvolvedor:** Larah Mônnica de Oliveira Lima.
+
+## 2. Objetivos
+
+- Desenvolver uma interface administrativa intuitiva e organizada.
+- Permitir o acesso ao sistema por meio de uma tela de login.
+- Disponibilizar uma página para visualização das informações do perfil do usuário.
+- Facilitar a consulta de dados operacionais por meio de uma tabela com campo de pesquisa.
+- Garantir a adaptação das interfaces aos dispositivos Desktop e Mobile.
+- Preparar a estrutura visual e os recursos necessários para a futura implementação do sistema.
+
+## 3. Escopo
+
+O projeto contempla o desenvolvimento de três páginas principais:
+
+- **Login:** página destinada à autenticação dos colaboradores, com campos para inserção das credenciais de acesso.
+- **Perfil:** página destinada à visualização das informações do usuário, organizadas de maneira clara e acessível.
+- **Consulta:** página destinada à apresentação de dados operacionais em uma tabela, acompanhada de um campo de pesquisa para facilitar a localização de informações.
+
+As três páginas serão desenvolvidas nas versões Desktop e Mobile. A implementação funcional, incluindo a integração com mecanismos de autenticação e dados, será realizada em uma etapa posterior.
+
+## 4. Requisitos Funcionais e Requisitos Não Funcionais
+
+### 4.1. Requisitos Funcionais
+
+Os requisitos funcionais descrevem as ações e funcionalidades que o sistema deverá oferecer aos seus usuários.
+
+| Identificação | Requisito |
+|---|---|
+| RF01 | Permitir que o colaborador informe suas credenciais na página de Login. |
+| RF02 | Disponibilizar uma funcionalidade de acesso ao sistema após a autenticação. |
+| RF03 | Exibir as informações do usuário na página de Perfil. |
+| RF04 | Apresentar os dados operacionais em formato de tabela na página de Consulta. |
+| RF05 | Disponibilizar um campo de pesquisa para localizar informações na tabela. |
+| RF06 | Permitir a navegação entre as páginas do sistema conforme as funcionalidades disponíveis. |
+
+### 4.2. Requisitos Não Funcionais
+
+Os requisitos não funcionais estabelecem critérios de qualidade, desempenho e organização que deverão ser considerados no desenvolvimento do sistema.
+
+| Identificação | Requisito |
+|---|---|
+| RNF01 | Apresentar uma interface responsiva, adaptada aos dispositivos Desktop e Mobile. |
+| RNF02 | Manter uma identidade visual consistente entre as páginas. |
+| RNF03 | Utilizar uma organização clara dos elementos, facilitando a navegação e a compreensão das informações. |
+| RNF04 | Garantir boa legibilidade por meio de cores, tipografia e espaçamentos adequados. |
+| RNF05 | Organizar os arquivos HTML, CSS, JavaScript e recursos visuais em uma estrutura de pastas padronizada. |
+| RNF06 | Otimizar imagens e outros recursos para contribuir com o desempenho do carregamento das páginas. |
+| RNF07 | Considerar boas práticas de acessibilidade e organização semântica durante a implementação. |
+
+## 5. Matriz de Recursos Humanos
 
 Esta matriz refere-se ao planejamento do sistema administrativo interno da FrameYou, desenvolvido para permitir que os colaboradores realizem login, visualizem seus perfis de usuário e consultem dados operacionais em uma tabela com campo de pesquisa.
 
@@ -14,7 +70,7 @@ Como o projeto será desenvolvido individualmente, ficarei responsável pelas at
 | Responsável pelo planejamento | Organizar as atividades, estimar prazos, definir a sequência das etapas e acompanhar as entregas. |
 
 
-## 2. Matriz de Recursos Materiais
+## 6. Matriz de Recursos Materiais
 
 Os recursos materiais e tecnológicos necessários para o planejamento, a prototipagem e a futura implementação do sistema administrativo interno da FrameYou estão descritos a seguir.
 
@@ -32,7 +88,7 @@ Os recursos materiais e tecnológicos necessários para o planejamento, a protot
 **Observação:** os recursos serão utilizados conforme a necessidade de cada etapa. A implementação em HTML, CSS e JavaScript ocorrerá somente após a conclusão do planejamento e da prototipagem.
 
 
-## 3. Cronograma Sequenciado de Desenvolvimento e Integração
+## 7. Cronograma Sequenciado de Desenvolvimento e Integração
 
 O cronograma organiza as atividades necessárias para o desenvolvimento do sistema administrativo interno da FrameYou, considerando as etapas já concluídas e as atividades restantes.
 
@@ -50,20 +106,20 @@ O cronograma organiza as atividades necessárias para o desenvolvimento do siste
 
 **Observação:** as telas Desktop e Mobile já foram prototipadas no Figma. As situações das demais atividades devem ser atualizadas conforme o andamento real do projeto.
 
-### 4.1. Protótipos no Figma
+### 7.1. Protótipos no Figma
 
 Os protótipos do sistema administrativo interno da FrameYou foram desenvolvidos nas versões Desktop e Mobile, contemplando as telas de Login, Perfil do Usuário e Consulta de Dados.
 
 - **Link do projeto no Figma:** [Acessar protótipos](https://www.figma.com/design/SWyE4DoQcC5i984vA2uMc8/FrameYou---Projeto-de-Software-SA02?node-id=38-1409&t=EiKXAEOLkWNJlPaf-1)
 
-### 4.2. Quadro Kanban do Trello
+### 7.2. Quadro Kanban do Trello
 
 O quadro Kanban será utilizado para organizar as tarefas, acompanhar o andamento das atividades e controlar as etapas de desenvolvimento do projeto.
 
 - **Link do quadro Kanban:** [Acessar quadro no Trello](https://trello.com/b/ImSCgtps/projetos-de-software-sa02-frameyou)
 
 
-## 5. Estrutura de Pastas e Arquivos
+## 8. Estrutura de Pastas e Arquivos
 
 ```text
 novaweb-projeto-inicial/
@@ -96,7 +152,7 @@ novaweb-projeto-inicial/
 **Observação:** a pasta `admin/docs/wireframes/` reúne as imagens dos protótipos exportadas do Figma. A pasta `admin/assets/images/` é destinada às imagens utilizadas diretamente na interface, enquanto `admin/assets/icons/` armazena os ícones.
 
 
-## 4. EAP — Estrutura Analítica do Projeto
+## 9. EAP — Estrutura Analítica do Projeto
 
 A EAP organiza o projeto em etapas e atividades menores, facilitando o planejamento e o acompanhamento do desenvolvimento.
 
@@ -119,26 +175,26 @@ A EAP organiza o projeto em etapas e atividades menores, facilitando o planejame
 **Observação:** a implementação e os testes funcionais são atividades futuras, não etapas já concluídas.
 
 
-## 5. Links do Projeto
+## 10. Links do Projeto
 
-### 5.1. Protótipos no Figma
+### 10.1. Protótipos no Figma
 
 Os protótipos contemplam as telas de Login, Perfil do Usuário e Consulta de Dados nas versões Desktop e Mobile.
 
 - **Link do projeto no Figma:** [Acessar protótipos](https://www.figma.com/design/SWyE4DoQcC5i984vA2uMc8/FrameYou---Projeto-de-Software-SA02?node-id=38-1409&t=EiKXAEOLkWNJlPaf-1)
 
-### 5.2. Quadro Kanban do Trello
+### 10.2. Quadro Kanban do Trello
 
 O quadro Kanban permite organizar as tarefas e acompanhar o andamento do projeto.
 
 - **Link do quadro Kanban:** [Acessar quadro no Trello](https://trello.com/b/ImSCgtps/projetos-de-software-sa02-frameyou)
 
 
-## 6. Imagens dos Protótipos no Figma
+## 11. Imagens dos Protótipos no Figma
 
 Esta seção apresenta os protótipos das telas do sistema administrativo interno da FrameYou nas versões Desktop e Mobile.
 
-### 6.1. Tela de Login
+### 11.1. Tela de Login
 
 **Desktop**
 
@@ -148,7 +204,7 @@ Esta seção apresenta os protótipos das telas do sistema administrativo intern
 
 ![Tela de Login Mobile](./admin/docs/wireframes/Login-Mobile.png)
 
-### 6.2. Perfil do Usuário
+### 11.2. Perfil do Usuário
 
 **Desktop**
 
@@ -158,7 +214,7 @@ Esta seção apresenta os protótipos das telas do sistema administrativo intern
 
 ![Perfil do Usuário Mobile](./admin/docs/wireframes/Perfil-Mobile.png)
 
-### 6.3. Consulta de Dados
+### 11.3. Consulta de Dados
 
 **Desktop**
 
