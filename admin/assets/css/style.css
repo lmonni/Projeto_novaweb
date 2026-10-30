@@ -300,3 +300,159 @@ footer {
         padding: 22px 16px;
     }
 }
+
+.area-administrativa {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 35px;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E0DA;
+    border-radius: 8px;
+}
+
+.abas {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #E5E0DA;
+}
+
+.aba {
+    padding: 12px 5px;
+    border: none;
+    border-bottom: 3px solid transparent;
+    background: transparent;
+    color: #A29E9E;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.aba:hover {
+    color: #DB5925;
+}
+
+.aba.ativa {
+    border-bottom-color: #DB5925;
+    color: #DB5925;
+}
+
+.conteudo-aba[hidden] {
+    display: none;
+}
+
+.cabecalho-secao {
+    margin-bottom: 30px;
+}
+
+.cabecalho-secao h1 {
+    margin-bottom: 10px;
+    color: #1D4ED8;
+    font-family: Syne, sans-serif;
+    font-size: 28px;
+}
+
+.cabecalho-secao p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.informacoes-perfil {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 650px;
+}
+
+.dados-perfil {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dados-perfil .campo-formulario {
+    width: 100%;
+}
+
+.dados-perfil input {
+    width: 100%;
+}
+
+.dados-perfil input:disabled {
+    background: #EAE7E3;
+    color: #A29E9E;
+    cursor: not-allowed;
+    opacity: .7;
+}
+
+.acoes-perfil {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.acoes-perfil button {
+    padding: 13px 20px;
+    border: none;
+    border-radius: 4px;
+    background: #1D4ED8;
+    color: #FDF9F5;
+    font-family: Inter, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.acoes-perfil button:hover:not(:disabled) {
+    background: #163DAA;
+}
+
+.acoes-perfil button:disabled {
+    background: #A29E9E;
+    cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+
+    .area-administrativa {
+        width: 95%;
+        margin: 30px auto;
+        padding: 25px 20px;
+    }
+
+    .abas {
+        gap: 20px;
+        overflow-x: auto;
+    }
+
+    .aba {
+        font-size: 13px;
+        white-space: nowrap;
+    }
+
+    .cabecalho-secao h1 {
+        font-size: 24px;
+    }
+
+    .acoes-perfil {
+        flex-direction: column;
+    }
+
+    .acoes-perfil button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .area-administrativa {
+        padding: 20px 15px;
+    }
+
+    .cabecalho-secao h1 {
+        font-size: 21px;
+    }
+}
