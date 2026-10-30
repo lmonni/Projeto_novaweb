@@ -456,3 +456,176 @@ footer {
         font-size: 21px;
     }
 }
+
+.acoes-consulta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.pesquisa-usuarios,
+.filtro-status {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.pesquisa-usuarios {
+    flex: 1;
+    min-width: 220px;
+}
+
+.pesquisa-usuarios label,
+.filtro-status label {
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.pesquisa-usuarios input,
+.filtro-status select {
+    min-height: 45px;
+    padding: 12px;
+    border: 1px solid #A29E9E;
+    border-radius: 4px;
+    background-color: #FDF9F5;
+    color: #333333;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    outline: none;
+    transition: border-color .2s, box-shadow .2s;
+}
+
+.pesquisa-usuarios input:focus,
+.filtro-status select:focus {
+    border: 2px solid #1D4ED8;
+    box-shadow: 0 0 0 2px rgba(29, 78, 216, .12);
+}
+
+.botoes-consulta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.botoes-consulta button {
+    min-height: 45px;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1D4ED8;
+    color: #FDF9F5;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.botoes-consulta button:hover {
+    background-color: #163DAA;
+}
+
+.tabela-usuarios {
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid #E5E0DA;
+    border-radius: 6px;
+}
+
+.tabela-usuarios table {
+    width: 100%;
+    min-width: 850px;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 13px;
+}
+
+.tabela-usuarios thead {
+    background-color: #F5F1ED;
+}
+
+.tabela-usuarios th {
+    padding: 16px 14px;
+    color: #333333;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.tabela-usuarios td {
+    padding: 15px 14px;
+    border-top: 1px solid #E5E0DA;
+    color: #666666;
+}
+
+.tabela-usuarios tbody tr:hover {
+    background-color: #FDF9F5;
+}
+
+.tabela-usuarios td:last-child {
+    white-space: nowrap;
+}
+
+.tabela-usuarios td button {
+    margin: 3px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1D4ED8;
+    color: #FDF9F5;
+    font-family: Inter, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.tabela-usuarios td button:hover {
+    background-color: #163DAA;
+}
+
+.tabela-usuarios td button:last-child {
+    background-color: #DB5925;
+}
+
+.tabela-usuarios td button:last-child:hover {
+    background-color: #B94418;
+}
+
+@media (max-width: 768px) {
+
+    .acoes-consulta {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .pesquisa-usuarios,
+    .filtro-status {
+        width: 100%;
+    }
+
+    .botoes-consulta {
+        width: 100%;
+    }
+
+    .botoes-consulta button {
+        flex: 1;
+    }
+
+    .tabela-usuarios table {
+        min-width: 850px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .botoes-consulta {
+        flex-direction: column;
+    }
+
+    .botoes-consulta button {
+        width: 100%;
+    }
+}
