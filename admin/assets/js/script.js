@@ -164,3 +164,33 @@ if (
 ) {
     verificarAcesso();
 }
+
+const abaPerfil = document.getElementById("aba-perfil");
+const abaUsuarios = document.getElementById("aba-usuarios");
+
+const conteudoPerfil = document.getElementById("conteudo-perfil");
+const conteudoUsuarios = document.getElementById("conteudo-usuarios");
+
+function alternarAba(abaSelecionada) {
+
+    const perfilAtivo = abaSelecionada === "perfil";
+
+    abaPerfil.classList.toggle("ativa", perfilAtivo);
+    abaUsuarios.classList.toggle("ativa", !perfilAtivo);
+
+    conteudoPerfil.hidden = !perfilAtivo;
+    conteudoUsuarios.hidden = perfilAtivo;
+
+}
+
+if (abaPerfil && abaUsuarios) {
+
+    abaPerfil.addEventListener("click", function() {
+        alternarAba("perfil");
+    });
+
+    abaUsuarios.addEventListener("click", function() {
+        alternarAba("usuarios");
+    });
+
+}
