@@ -194,3 +194,40 @@ if (abaPerfil && abaUsuarios) {
     });
 
 }
+
+const botaoEditarPerfil = document.getElementById("editar-perfil");
+const botaoSalvarPerfil = document.getElementById("salvar-perfil");
+
+const camposPerfil = document.querySelectorAll(
+    "#conteudo-perfil input"
+);
+
+camposPerfil.forEach(function(campo) {
+    campo.disabled = true;
+});
+
+if (botaoEditarPerfil && botaoSalvarPerfil) {
+
+    botaoEditarPerfil.addEventListener("click", function() {
+
+        camposPerfil.forEach(function(campo) {
+            campo.disabled = false;
+        });
+
+        botaoEditarPerfil.disabled = true;
+        botaoSalvarPerfil.disabled = false;
+
+    });
+
+    botaoSalvarPerfil.addEventListener("click", function() {
+
+        camposPerfil.forEach(function(campo) {
+            campo.disabled = true;
+        });
+
+        botaoEditarPerfil.disabled = false;
+        botaoSalvarPerfil.disabled = true;
+
+    });
+
+}
