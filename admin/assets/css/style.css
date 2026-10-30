@@ -11,6 +11,13 @@ body {
     font-family: Inter, sans-serif;
     background-color: #FDF9F5;
     color: #A29E9E;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
 }
 
 header {
@@ -46,10 +53,170 @@ nav a {
     text-decoration: none;
     color: #FDF9F5;
     font-weight: bold;
+    transition: opacity .2s;
+}
+
+nav a:hover {
+    opacity: .75;
+}
+
+nav button {
+    border: none;
+    background: transparent;
+    color: #FDF9F5;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-size: inherit;
+    cursor: pointer;
+    transition: opacity .2s;
+}
+
+nav button:hover {
+    opacity: .75;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+.formulario-login,
+.formulario-cadastro {
+    width: 100%;
+    max-width: 480px;
+    padding: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E5E0DA;
+    border-radius: 8px;
+}
+
+.formulario-login h1,
+.formulario-cadastro h1 {
+    font-family: Syne, sans-serif;
+    font-size: 32px;
+    color: #1D4ED8;
+    margin-bottom: 12px;
+}
+
+.formulario-login > p,
+.formulario-cadastro > p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.campo-formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.campo-formulario label {
+    font-weight: bold;
+    color: #333333;
+    font-size: 14px;
+}
+
+.campo-formulario input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #A29E9E;
+    border-radius: 4px;
+    background: #FDF9F5;
+    color: #333333;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    outline: none;
+    transition: border-color .2s, box-shadow .2s;
+}
+
+.campo-formulario input::placeholder {
+    color: #A29E9E;
+}
+
+.campo-formulario input:focus {
+    border: 2px solid #1D4ED8;
+    box-shadow: 0 0 0 2px rgba(29, 78, 216, .12);
+}
+
+.campo-formulario input.is-success {
+    border: 2px solid #2E8B57;
+}
+
+.campo-formulario input.is-error {
+    border: 2px solid #DC3545;
+}
+
+.campo-formulario input:disabled,
+.campo-formulario input.is-disabled {
+    background: #EAE7E3;
+    color: #A29E9E;
+    cursor: not-allowed;
+    opacity: .7;
+}
+
+.formulario-login button,
+.formulario-cadastro button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 4px;
+    background: #1D4ED8;
+    color: #FDF9F5;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .2s;
+}
+
+.formulario-login button:hover,
+.formulario-cadastro button:hover {
+    background: #163DAA;
+}
+
+.formulario-login button:disabled,
+.formulario-cadastro button:disabled {
+    background: #A29E9E;
+    cursor: not-allowed;
+}
+
+#mensagem-login,
+#mensagem-cadastro {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.erro {
+    color: #DC3545;
+}
+
+.sucesso {
+    color: #2E8B57;
+}
+
+.alternar-formulario {
+    margin-top: 25px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.alternar-formulario a {
+    color: #1D4ED8;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.alternar-formulario a:hover {
+    text-decoration: underline;
 }
 
 footer {
-    background-color: #DB5925;
+    background: #DB5925;
     color: #FDF9F5;
     display: flex;
     justify-content: space-around;
@@ -71,3 +238,65 @@ footer {
     margin-bottom: 8px;
 }
 
+@media (max-width: 768px) {
+
+    .cabecalho {
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .cabecalho img {
+        width: 220px;
+    }
+
+    nav {
+        padding: 16px 15px;
+    }
+
+    nav ul {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    nav a,
+    nav button {
+        font-size: 13px;
+    }
+
+    .login {
+        padding: 35px 15px;
+    }
+
+    .formulario-login,
+    .formulario-cadastro {
+        padding: 25px 20px;
+    }
+
+    .formulario-login h1,
+    .formulario-cadastro h1 {
+        font-size: 27px;
+    }
+
+    footer {
+        padding: 30px 20px;
+        margin-top: 30px;
+    }
+}
+
+
+@media (max-width: 400px) {
+
+    nav ul {
+        gap: 12px;
+    }
+
+    nav a,
+    nav button {
+        font-size: 12px;
+    }
+
+    .formulario-login,
+    .formulario-cadastro {
+        padding: 22px 16px;
+    }
+}
